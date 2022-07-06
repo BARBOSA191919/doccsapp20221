@@ -19,7 +19,7 @@ public class ClientEdit extends javax.swing.JFrame {
         clientIdTxtF.setText("");
         clientEmailTxtF.setText("");
         clientFullNameTxtF.setText("");
-        clientAddressTxtF.setText("");;
+        clientAddressTxtF.setText("");
         clientNotesTxtA.setText("");
         clientPhoneTxtF.setText("");
         clientStateTxtF.setText("");
@@ -112,6 +112,12 @@ public class ClientEdit extends javax.swing.JFrame {
         jLabel8.setText("Type");
 
         jLabel9.setText("Notes");
+
+        clientIdTxtF.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                clientIdTxtFActionPerformed(evt);
+            }
+        });
 
         clientNotesTxtA.setColumns(20);
         clientNotesTxtA.setRows(5);
@@ -275,6 +281,10 @@ public class ClientEdit extends javax.swing.JFrame {
     private void clientRestartBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clientRestartBtnActionPerformed
         this.cleanAll();
     }//GEN-LAST:event_clientRestartBtnActionPerformed
+
+    private void clientIdTxtFActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clientIdTxtFActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_clientIdTxtFActionPerformed
 
     /**
      * @param args the command line arguments

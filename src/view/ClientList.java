@@ -102,6 +102,11 @@ public class ClientList extends javax.swing.JFrame {
         });
 
         clientUpdateBtn.setText("Update");
+        clientUpdateBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                clientUpdateBtnActionPerformed(evt);
+            }
+        });
 
         clientCloseBtn.setText("Close");
         clientCloseBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -257,6 +262,10 @@ public class ClientList extends javax.swing.JFrame {
             }
         }
     }//GEN-LAST:event_clientDeleteBtnActionPerformed
+
+    private void clientUpdateBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clientUpdateBtnActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_clientUpdateBtnActionPerformed
 
     
     public static void main(String args[]) {

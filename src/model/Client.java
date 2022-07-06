@@ -11,6 +11,7 @@ public class Client extends Person {
         this.state = state;
         this.type = type;
         this.notes = notes;
+        
     }
 
     public Client(boolean state, String type, String notes) {
@@ -53,11 +54,6 @@ public class Client extends Person {
     @Override
     public String toString() {
         return "Client{" + "state=" + state + ", type=" + type + ", notes=" + notes + '}'+' ' + super.toString();
-    }
-
-    
-    
-    
-    
+    }  
     
 }

@@ -10,6 +10,7 @@ public class Person implements Serializable{
     private String address;
     private String phone;
     private String email;
+  
 
     public Person(Long id, String fullName, String address, String phone, String email) {
         this.id = id;
@@ -17,6 +18,7 @@ public class Person implements Serializable{
         this.address = address;
         this.phone = phone;
         this.email = email;
+       
     }
 
     public Person() {
@@ -66,7 +68,6 @@ public class Person implements Serializable{
     public String toString() {
         return "Person{" + "id=" + id + ", fullName=" + fullName + ", address=" + address + ", phone=" + phone + ", email=" + email + '}';
     }
-    
     
     
 }
